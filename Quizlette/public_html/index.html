@@ -10,6 +10,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="quizlette.css">
+        <script src="quizlette.js"></script> 
     </head>
    
     
@@ -19,20 +20,21 @@ and open the template in the editor.
             
             <div>Time for a QUIZ!</div>
             <br><br><br>
-            <p align="middle"> This is your first question! </p>
+            <p id="round" align="middle"> Pick a number! </p>
             <div align="middle">
-                <button id="choice1" type="button">Butt</button>
-                <button id="choice2" type="button">Boobs</button>
-                <button id="choice3" type="button">Feet</button>
+                <button id="choice1" type="button" onclick="addFirst(); nextRound()">One</button>
+                <button id="choice2" type="button" onclick="addSecond(); nextRound()">Two</button>
+                <button id="choice3" type="button" onclick="addThird(); nextRound()">Three</button>
             </div>
             
-            <button id="score" type="button">View score</button>
+            <button id="score" type="button" onclick="displayScore()">View score</button>
+            <p id="display"> </p>
             
         </section>
         
         <br>
         <p style="text-align: center">
-            <img src="kitty.jpg" width="1000" align="middle">
+            <img id="cat" width="600">
         </p>
     </body>
 </html>
