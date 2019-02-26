@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb. 25, 2019, 7:31:35 p.m.
+    Author     : Chiruno
+*/
+
+body {
+    background-color: black;
+}
+
+button {
+    color: black;
+    background-color: sandybrown;
+    font-size: 25px;
+}
+
+#score {
+    font-size: 15px;
+}
+
+#main {
+    padding: 10px;
+    background-color: powderblue;
+    border-style: 5px double;
+    border-radius: 10px;
+}
