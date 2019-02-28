@@ -8,11 +8,14 @@ and open the template in the editor.
     Author     : Chiruno
 */
 
+
+
 body {
-    background-color: #ffffcc;
+    background-image: linear-gradient(blue 50%, pink 50%);
     padding-top: 50px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 200px;
 }
 
 button {
@@ -37,7 +40,7 @@ button {
 
 #butChoices button {
     height: 50px;
-    width: 120px;
+    width: 85px;
     border-radius: 8px;
 }
 
