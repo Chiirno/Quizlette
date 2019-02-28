@@ -52,6 +52,18 @@ function nextRound(){
 }
 
 function displayScore(){
-    document.getElementById("score").innerHTML = score;
-    document.getElementById("cat").src = "kitty.jpg"
+    document.getElementById("tally").innerHTML = score;
+    document.getElementById("cat").src = "kitty.jpg";
+    hide(document.getElementById("score"));
 }
+
+
+/*
+
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});         
+
+ */

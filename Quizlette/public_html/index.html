@@ -10,28 +10,31 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="quizlette.css">
+        <script src="js/jquery-3.3.1.js"></script>
         <script src="quizlette.js"></script> 
     </head>
    
     
     <body>
         
+        <p align="center"><font size="20"><u> Time for a QUIZ!</u></font></p>
+        
         <section id="main">
             
-            <div>Time for a QUIZ!</div>
             <br><br><br>
             <p id="round" align="middle"> Pick a number! </p>
-            <div align="middle">
+            <div id="butChoices" align="middle">
                 <button id="choice1" type="button" onclick="addFirst(); nextRound()">One</button>
                 <button id="choice2" type="button" onclick="addSecond(); nextRound()">Two</button>
                 <button id="choice3" type="button" onclick="addThird(); nextRound()">Three</button>
             </div>
-            
+            <br><br><br><br>
             <button id="score" type="button" onclick="displayScore()">View score</button>
             <p id="display"> </p>
             
-        </section>
+        <p id="tally"></p>  
         
+        </section>
         <br>
         <p style="text-align: center">
             <img id="cat" width="600">

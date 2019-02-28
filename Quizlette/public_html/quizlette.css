@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 body {
-    background-color: white;
+    background-color: #ffffcc;
     padding-top: 50px;
     padding-right: 20px;
     padding-left: 20px;
@@ -17,7 +17,7 @@ body {
 
 button {
     color: black;
-    background-color: sandybrown;
+    background-color: white;
     font-size: 25px;
 }
 
@@ -27,8 +27,22 @@ button {
 }
 
 #main {
+    margin-right: 0%;
+    margin-left: 0%;
     padding: 10px;
-    background-color: powderblue;
+    background-color: sandybrown;
     border-style: double;
     border-radius: 10px;
+}
+
+#butChoices button {
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+}
+
+#butChoices button:hover {
+  background-color: lightgray; /* Green */
+  color: black;
+  transition-duration: 0.8s;
 }
