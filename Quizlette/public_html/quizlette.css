@@ -9,9 +9,13 @@ and open the template in the editor.
 */
 
 
+html {
+    background-image: linear-gradient(white 30%, khaki);
+    height: 100%;
+    
+}
 
 body {
-    background-image: linear-gradient(blue 50%, pink 50%);
     padding-top: 50px;
     padding-right: 20px;
     padding-left: 20px;
@@ -22,6 +26,7 @@ button {
     color: black;
     background-color: white;
     font-size: 25px;
+    border: none;
 }
 
 
@@ -30,22 +35,27 @@ button {
 }
 
 #main {
-    margin-right: 0%;
-    margin-left: 0%;
+    
+    width: 1580px;
+    text-align: left;
+    position: relative;
     padding: 10px;
     background-color: sandybrown;
-    border-style: double;
-    border-radius: 10px;
+    border-style: double;  
+    right: 28px;
+    height: 300px;
+    opacity: 0.75;
+    border-right-style: hidden;
+    border-left-style: hidden;
 }
 
 #butChoices button {
     height: 50px;
     width: 85px;
     border-radius: 8px;
-}
-
+  transition-duration: 800ms;
+}   
 #butChoices button:hover {
   background-color: lightgray; /* Green */
   color: black;
-  transition-duration: 0.8s;
 }

@@ -53,7 +53,7 @@ function nextRound(){
 
 function displayScore(){
     document.getElementById("tally").innerHTML = score;
-    document.getElementById("cat").src = "kitty.jpg";
+    // document.getElementById("cat").src = "kitty.jpg";
     hide(document.getElementById("score"));
 }
 
