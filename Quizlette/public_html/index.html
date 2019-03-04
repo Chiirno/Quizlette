@@ -22,13 +22,13 @@ and open the template in the editor.
         <section id="main">
             
             
-            <p id="round" align="middle"> Pick a number! </p>
+            <p id="round"> Pick a number! </p>
             
             
-            <div id="question1" style="padding-top:65px" align="middle">
-                <button style="margin-right:25px" id="choice1" type="button" onclick="addFirst(); nextRound()">One</button>
-                <button id="choice2" type="button" onclick="addSecond(); nextRound()">Two</button>
-                <button style="margin-left:25px" id="choice3" type="button" onclick="addThird(); nextRound()">Three</button>
+            <div class="questions" id="question1" style="padding-top:65px" align="middle">
+                <button id="buttonLeft" type="button" onclick="addFirst(); fadeOut()">One</button>
+                <button id="buttonMid" type="button" onclick="addSecond(); fadeOut()">Two</button>
+                <button id="buttonRight" type="button" onclick="addThird(); fadeOut()">Three</button>
             </div>
             
             <br><br><br><br>

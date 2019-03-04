@@ -35,7 +35,6 @@ button {
 }
 
 #main {
-    
     width: 1580px;
     text-align: left;
     position: relative;
@@ -49,13 +48,32 @@ button {
     border-left-style: hidden;
 }
 
-#question1 question2 question3 button {
+#round{
+    text-align: center;
+}
+
+ 
+
+.questions button{
     height: 50px;
     width: 85px;
     border-radius: 8px;
-  transition-duration: 800ms;
-}   
-#question1 question2 question3 button:hover {
-  background-color: lightgray; /* Green */
+    transition-duration: 800ms;
+} 
+
+.questions button:hover {
+  background-color: lightgray;
   color: black;
+}
+
+#buttonLeft{
+    margin-right:25px
+}
+
+#buttonMid{
+    
+}
+
+#buttonRight{
+    margin-left:25px
 }
