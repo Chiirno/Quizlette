@@ -57,6 +57,10 @@ function displayScore(){
     hide(document.getElementById("score"));
 }
 
+function imageReload() {
+    document.getElementById("kitty").innerHTML = location.reload();
+}
+
 
 /*
 

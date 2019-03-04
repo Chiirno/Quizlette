@@ -49,13 +49,13 @@ button {
     border-left-style: hidden;
 }
 
-#butChoices button {
+#question1 question2 question3 button {
     height: 50px;
     width: 85px;
     border-radius: 8px;
   transition-duration: 800ms;
 }   
-#butChoices button:hover {
+#question1 question2 question3 button:hover {
   background-color: lightgray; /* Green */
   color: black;
 }

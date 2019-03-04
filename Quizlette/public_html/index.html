@@ -23,11 +23,14 @@ and open the template in the editor.
             
             
             <p id="round" align="middle"> Pick a number! </p>
-            <div style="padding-top:65px" id="butChoices" align="middle">
+            
+            
+            <div id="question1" style="padding-top:65px" align="middle">
                 <button style="margin-right:25px" id="choice1" type="button" onclick="addFirst(); nextRound()">One</button>
                 <button id="choice2" type="button" onclick="addSecond(); nextRound()">Two</button>
                 <button style="margin-left:25px" id="choice3" type="button" onclick="addThird(); nextRound()">Three</button>
             </div>
+            
             <br><br><br><br>
             <button id="score" type="button" onclick="displayScore()">View score</button>
             <p id="display"> </p>
@@ -37,7 +40,10 @@ and open the template in the editor.
         </section>
         <br>
         <p style="text-align: center">
-            <img id="cat" width="600">
+            <a href="https://thiscatdoesnotexist.com/">
+                <img id="kitty" src="https://thiscatdoesnotexist.com/" alt="https://thiscatdoesnotexist.com/">
+                <button onclick="imageReload()"> kitty refresh </button>
+            </a>
         </p>
     </body>
 </html>
