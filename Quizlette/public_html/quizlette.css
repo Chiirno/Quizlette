@@ -25,7 +25,7 @@ body {
 button {
     color: black;
     background-color: white;
-    font-size: 25px;
+    font-size: 22px;
     border: none;
 }
 
@@ -35,7 +35,7 @@ button {
 }
 
 #main {
-    width: 1580px;
+    width: 1563px;
     text-align: left;
     position: relative;
     padding: 10px;

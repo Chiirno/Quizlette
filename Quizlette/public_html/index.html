@@ -21,14 +21,17 @@ and open the template in the editor.
         
         <section id="main">
             
+            <div id="Qtip">
             
             <p id="round"> Pick a number! </p>
             
             
             <div class="questions" id="question1" style="padding-top:65px" align="middle">
-                <button id="buttonLeft" type="button" onclick="addFirst(); fadeOut()">One</button>
-                <button id="buttonMid" type="button" onclick="addSecond(); fadeOut()">Two</button>
-                <button id="buttonRight" type="button" onclick="addThird(); fadeOut()">Three</button>
+                <button id="buttonLeft" type="button" onclick="fadeOut(); leftChoice()">One</button>
+                <button id="buttonMid" type="button" onclick="fadeOut(); middleChoice()">Two</button>
+                <button id="buttonRight" type="button" onclick="fadeOut(); rightChoice()">Three</button>
+            </div>
+            
             </div>
             
             <br><br><br><br>
